@@ -1,0 +1,5 @@
+wget <tomcat download link from intenet>
+mv <apache-tar.gz>   /etc
+
+
+to get :8080 acces  goto tomcat-webappps-manager-METAINF- edit context.xml(comment the value contains value tag)

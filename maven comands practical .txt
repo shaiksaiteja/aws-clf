@@ -1,0 +1,138 @@
+[root@ip-172-31-14-189 mwa]# history
+    1  ll
+    2  sudo yum updat
+    3  wget https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.6/apache-maven-3.8.6-bin.tar.gz
+    4  ll
+    5  tar -zxvf apache-maven-3.8.6-bin.tar.gz 
+    6  ll
+    7  cd apache-maven-3.8.6
+    8  ll
+    9  sudo amazon-linux-extras install java-openjdk11
+   10  yum install maven -y
+   11  jav-v
+   12  ja v-v
+   13  java -version
+   14  mvn archetype:generate
+   15  ll
+   16  cd devopsart
+   17  ll
+   18  nanopom.xml
+   19  nano pom.xml
+   20  yum install tree
+   21  cd ~
+   22  tree
+   23  ll
+   24  ln -s apache-maven-3.8.6 mav
+   25  cd mav
+   26  tree
+   27  mvn -v
+   28  cd `\
+   29  cd ~
+   30  mav -v
+   31  ll
+   32  mvn
+   33  cd mav
+   34  mvn clean
+   35  tree
+   36  mvn compile
+   37  l
+   38  ll
+   39  cd devopsart
+   40  ll
+   41  ll
+   42  cd mav
+   43  ll
+   44  java -v
+   45  java -version
+   46  maven -version
+   47  yum install maven -y
+   48  ll
+   49  maven clean
+   50  mav clean
+   51  mav archetype:generate
+   52  mvn archetype:generate
+   53  ll
+   54  mvn clean
+   55  ll
+   56  tree
+   57  mvn compile
+   58  ll
+   59  cd devopsart
+   60  ll
+   61  mvn compile
+   62  ll
+   63  mvn test
+   64  tree
+   65  mvn package
+   66  lll
+   67  ll
+   68  tree
+   69  ll
+   70  cd target
+   71  ll
+   72  cd ..
+   73  mvn install
+   74  ll
+   75  cd ~
+   76  ll
+   77  git clone https://github.com/disha2567/maven-standalone-application.git
+   78  yum install git
+   79  git clone https://github.com/disha2567/maven-standalone-application.git
+   80  ll
+   81  ln -s maven-standalone-application msa
+   82  cd msa
+   83  ll
+   84  mvn compile
+   85  mvn test
+   86  mvn package
+   87  lll
+   88  tree
+   89  mvn install 
+   90  ll
+   91  mvn clean
+   92  ll
+   93  tree
+   94  cd ~
+   95  git clone https://github.com/disha2567/maven-web-application.git
+   96  ll
+   97  ln -s maven-web-application
+   98  ln -s maven-web-application msa
+   99  ll
+  100  ln -s maven-web-application mwa
+  101  ll
+  102  cd mwa
+  103  ll
+  104  mvn clean
+  105  ll
+  106  mvn compile
+  107  mvn test
+  108  mvn package
+  109  mvn test
+  110  mvn package
+  111  mvn clean
+  112  tree
+  113  ll
+  114  nano pom.xml
+  115  mvn package
+  116  mvn test
+  117  mvn --version
+  118  mvn package
+  119  ll
+  120  cd target
+  121  lll
+  122  ll
+  123  tree
+  124  nano pom.xml
+  125  s
+  126  ll
+  127  rm pom.xml
+  128  ll
+  129  cd ..
+  130  ll
+  131  nano pom.xml
+  132  ll
+  133  mvn clean
+  134  mvn package
+  135  ll
+  136  tree
+  137  history

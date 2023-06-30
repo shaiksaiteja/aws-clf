@@ -1,0 +1,32 @@
+1 sudo su apt-get update
+    2  apt-get install lamp-server^
+    3  apt-get install phpmyadmin -y
+    4  mysql -u root -p
+    5  cd /var/www/html
+    6  ls
+    7  nano index.php
+    8  rm index.html
+    9  ls -ll
+   10  rm index*
+   11  ls
+   12  chmod 777 /var/www/html
+   13  cd /var/www/html
+   14  cd /var/www/html
+   15  ls
+   16  apt install unzip
+   17  unzip registration-login.zip
+   18  chmod 777 /var/www/html
+   19  sudo add-apt-repository ppa:certbot/certbot
+   20  sudo apt-get update
+   21  sudo apt-get install python-certbot-apache
+   22  sudo apt-get install python-certbot-apache2
+   23  sudo add-apt-repository ppa:certbot/certbot
+   24  sudo apt-get update
+   25  sudo apt-get install python-certbot-apache
+   26  sudo apt update
+   27  apt update
+   28  sudo apt install software-properties-common
+   29  sudo add-apt-repository ppa:certbot/certbot
+   30  sudo apt install certbot python3-certbot-apache
+   31  sudo certbot --apache -d hackathonbysai508.tk
+   32  history
